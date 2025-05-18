@@ -12,14 +12,18 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "pnovel.helloWorld",
-      "title": "Hello World"
-    }],
+   
     "languages": [
       {
         "id": "pnovel",
         "extentions": [".pnovel"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pnovel",
+        "scopeName": "source.pnovel",
+        "path": "./pnovel.tmLanguage.json"
       }
     ]
   },

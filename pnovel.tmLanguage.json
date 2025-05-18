@@ -1,0 +1,29 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "oreore",
+    "patterns": [
+        {
+            "include": "#keywords"
+        }
+    ],
+    "repository": {
+         "keywords": {
+             "patterns": [
+                
+                {
+                    "name": "keyword.other",
+                    "match": "\\[.+\\]"
+                },
+                {
+                    "name": "keyword.other",
+                    "match": "\\[\\]"
+                },
+                {
+                    "name": "keyword.other",
+                    "match": "\\[\\[.+\\]\\]"
+                }
+            ]
+        }
+    },
+    "scopeName": "source.pnovel"
+}
