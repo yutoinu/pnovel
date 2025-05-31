@@ -5,7 +5,8 @@ This is the README for "pnovel" Pixiv novel extention.
 ## How to use
 This extension is enabled for text files with the ".pnovel" extension.
 
-This extention can hilight pixiv novel tags.
+- This extention hilight pixiv novel tags.
+- This extention autoclose and autocollect pixiv novel tags.
 
 [You can check official Pixiv FAQ](https://www.pixiv.help/hc/ja/articles/235584168)
 
