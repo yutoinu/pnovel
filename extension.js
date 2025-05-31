@@ -36,7 +36,7 @@ class PnovelCompletionItemProvider {
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
-				label: '[jumpuri: ? ]',
+				label: '[jumpuri: > ]',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
