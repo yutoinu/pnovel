@@ -16,27 +16,27 @@ class PnovelCompletionItemProvider {
     provideCompletionItems(document, position, token) {
         const completionItems = [
 			{
-				label: '[chapter: ]',
+				label: 'chapter: ',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
-				label: '[newpage: ]',
+				label: 'newpage',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
-				label: '[uploadedimage: ]',
+				label: 'uploadedimage: ',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
-				label: '[pixivimage: ]',
+				label: 'pixivimage: ',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
-				label: '[jump: ]',
+				label: 'jump: ',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
-				label: '[[jumpuri: ? ]]',
+				label: '[jumpuri: ? ]',
 				kind: vscode.CompletionItemKind.Function
 			},
 			{
