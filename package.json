@@ -2,13 +2,18 @@
   "name": "pnovel",
   "displayName": "pnovel",
   "description": "pixiv-novel support",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "yutoinu",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutoinu/pnovel"
+  },
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
