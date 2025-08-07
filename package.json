@@ -2,7 +2,7 @@
   "name": "pnovel",
   "displayName": "pnovel",
   "description": "pixiv-novel support",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "yutoinu",
   "engines": {
     "vscode": "^1.100.0"
