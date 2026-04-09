@@ -42,7 +42,19 @@ class PnovelCompletionItemProvider {
 			{
 				label: '[rb: > ]',
 				kind: vscode.CompletionItemKind.Function
-			}
+			},
+			{
+				label: 'b: ',
+				kind: vscode.CompletionItemKind.Function
+			},
+			{
+				label: 'i: ',
+				kind: vscode.CompletionItemKind.Function
+			},
+			{
+				label: '[emphasismark: > ]',
+				kind: vscode.CompletionItemKind.Function
+			},
         ];
         let completionList = new vscode.CompletionList(completionItems, false);
         return Promise.resolve(completionList);
