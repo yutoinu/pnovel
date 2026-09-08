@@ -21,7 +21,7 @@
     "languages": [
       {
         "id": "pnovel",
-        "extentions": [".pnovel"],
+        "extensions": [".pnovel"],
         "configuration": "./language-configuration.json"
 
       }
